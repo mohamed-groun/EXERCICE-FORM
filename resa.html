@@ -1,0 +1,37 @@
+<html>
+
+
+<head></head>
+<body>
+
+
+
+    <form action="recap.php"   method="post" enctype="multipart/form-data" name="formu">
+        Nom:<br>
+        <input type="text" name="Nom" >
+        <br>
+        prenom:<br>
+        <input type="text" name="prenom" >
+        <br>
+        Nombre de Sandwish:<br>
+        <input type="text" name="nbrSandwish" >
+        <br>
+        Adresse: <br>
+        <textarea name="adresse" rows="4" cols="50"></textarea>
+        <br><br>
+        <select name="typeSandwish">
+            <option name="check_list[]" value="Viande">viande</option>
+            <option name="check_list[]" value ="poulet"> poulet</option>
+            <option name="check_list[]"value=" escalope">escalope</option>
+        </select>
+        <br><br>
+        <input type="checkbox" name="s[]" value="Harissa"> Harissa<br>
+        <input type="checkbox" name="s[]" value="salade"> salade <br>
+        <input type="checkbox" name="s[]" value="mayo" > mayo
+
+
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+</html>
